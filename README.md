@@ -28,7 +28,7 @@
 						$ ./start.sh command
 
 			# Connecting sensor tag to Raspberry pi
-				Install bluepy on the raspberry pi using the following commands  
+				1. Install bluepy on the raspberry pi using the following commands  
 						$ sudo apt-get install python-pip libglib2.0-dev
 						$ sudo pip install bluepy 
 						$ sudo apt-get install git build-essential libglib2.0-dev
@@ -36,6 +36,7 @@
 						$ cd bluepy
 						$ python setup.py build
 						$ sudo python setup.py install
+				2. Copy the bluepy folder and place ../aws-iot-device-sdk-python/samples/basicPubSub folder
 
 			git link for bluepy:  
 			https://github.com/IanHarvey/bluepy/tree/master/bluepy
